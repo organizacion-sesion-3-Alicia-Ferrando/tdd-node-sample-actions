@@ -4,7 +4,7 @@
     "description": "Ejemplo de Desarrollo Guiado por Test en Node JS",
     "main": "index.js",
     "scripts": {
-        "test": "mocha",
+        "tests": "mocha",
         "test1": "mocha test/test",
         "test2": "mocha test/test2"
     },

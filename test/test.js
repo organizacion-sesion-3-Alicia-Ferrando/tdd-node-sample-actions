@@ -8,9 +8,9 @@ var operaciones = require('../operations.js');
 
 // Test
 it('comprobar función suma', function() {
-	assert.equal(operaciones.suma(1,3), 4);
-	assert.equal(operaciones.suma(-1,3), 2);
-	assert.equal(operaciones.suma(8,-3), 5);
+	assert.equal(operaciones.par(1), false);
+	assert.equal(operaciones.par(-1), false);
+	assert.equal(operaciones.par(2), true);
 });
 
 
